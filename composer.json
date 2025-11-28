@@ -1,11 +1,11 @@
 {
-    "name": "diontjehh/laravel-invokables",
-    "description": "Laravel Invokables",
+    "name": "diontjehh/laravel-handler",
+    "description": "Laravel Handler",
     "keywords": [
         "laravel",
-        "invokables"
+        "handler"
     ],
-    "homepage": "https://github.com/diontjehh/laravel-invokables",
+    "homepage": "https://github.com/diontjehh/laravel-handler",
     "license": "MIT",
     "authors": [
         {
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Diontjehh\\Invokable\\": "src/",
-            "Diontjehh\\Invokable\\Database\\Factories\\": "database/factories/"
+            "Diontjehh\\Handler\\": "src/",
+            "Diontjehh\\Handler\\Console\\Commands\\": "src/Console/Commands/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Diontjehh\\Invokable\\Tests\\": "tests/",
+            "Diontjehh\\Handler\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Diontjehh\\Invokable\\InvokableServiceProvider"
+                "Diontjehh\\Handler\\HandlerServiceProvider"
             ],
             "aliases": {
-                "Invokable": "Diontjehh\\Invokable\\Facades\\Invokable"
+                "Handler": "Diontjehh\\Handler\\Facades\\Handler"
             }
         }
     },

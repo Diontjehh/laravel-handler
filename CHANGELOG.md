@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `laravel-invokables` will be documented in this file.
+All notable changes to `laravel-handler` will be documented in this file.

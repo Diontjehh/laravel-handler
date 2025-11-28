@@ -1,13 +1,13 @@
 <?php
 
-namespace Diontjehh\Invokable\Facades;
+namespace Diontjehh\Handler\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Invokable extends Facade
+class Handler extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return Invokable::class;
+        return 'handler';
     }
 }
