@@ -3,7 +3,6 @@
 namespace Diontjehh\Handler;
 
 use Diontjehh\Handler\Commands\MakeActionCommand;
-use Diontjehh\Handler\Commands\MakeServiceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -15,7 +14,6 @@ class HandlerServiceProvider extends PackageServiceProvider
             ->name('handler')
             ->hasCommands([
                 MakeActionCommand::class,
-                MakeServiceCommand::class,
             ]);
     }
 }

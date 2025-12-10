@@ -2,7 +2,9 @@
 
 namespace {{ namespace }};
 
-final class {{ class }}
+use Diontjehh\Handler\Handler;
+
+final class {{ class }} extends Handler
 {
     public function handle(): void
     {
